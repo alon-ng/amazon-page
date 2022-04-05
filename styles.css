@@ -1,0 +1,424 @@
+@import url("https://cdn.jsdelivr.net/gh/GoCloudHub/font-amazon-ember/fonts/amazonember/amazonember.css");
+
+body {
+  position: relative;
+  background-color: rgb(250, 250, 250);
+  margin: 0px;
+}
+
+* {
+  font-family: "Amazon Ember";
+}
+
+.nav {
+  background-color: #131921;
+  overflow: visible;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 3px;
+}
+
+/* Style the links inside the navigation bar */
+.nav > * {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 7px;
+  margin: 0 3px;
+  border: transparent solid thin;
+}
+
+/* Change the color of links on hover */
+.nav > *:hover {
+  border-radius: 2px;
+  border: white solid thin;
+}
+
+.nav div .two-lines {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav div .two-lines .line-1 {
+  font-size: 12px;
+}
+
+.nav div .two-lines .line-2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav div .loc-icon {
+  width: 15px;
+  height: auto;
+  padding: 0px 3px;
+  padding-top: 8px;
+}
+
+.search-bar-section {
+  padding: 0;
+  flex-grow: 1;
+  display: flex;
+  height: 40px;
+}
+
+.search-bar-section:hover {
+  border: 0;
+}
+
+.search-bar-section:focus-within {
+  border: 2px solid #FF8F00;
+  border-radius: 8px;
+}
+
+.search-dp {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  color: rgb(100, 100, 100);
+  border-radius: 5px 0px 0px 5px;
+  width: 66px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Amazon Ember";
+}
+
+.search-dp option {
+  width: 66px;
+}
+
+.search-dp {
+  flex: 0 0 50px;
+  height: 100%;
+  border: 0;
+}
+
+.search-bar {
+  padding: 0px;
+  height: 38px;
+  flex-grow: 1;
+  border: 1px solid rgb(200, 200, 200);
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.search-button {
+  width: 45px;
+  height: 100%;
+  border: 0;
+  font-size: 22px;
+  background-color: hsl(37deg 99% 70%);
+  color: rgb(50, 50, 50);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.lang-flag {
+  height: 18px;
+  width: 24px;
+  padding: 3px;
+  padding-top: 8px;
+}
+
+.lang-dp {
+  position: relative;
+}
+
+.lang-dp .fa-caret-down {
+  padding-left: 2px;
+  padding-top: 14px;
+}
+
+.fa-caret-down {
+  font-size: 12px;
+  color: rgb(200, 200, 200);
+}
+
+.cart {
+  width: 70px;
+}
+
+.cart .two-lines .line-1 {
+  color: rgb(240, 136, 4);
+  font-size: 16px !important;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.cart .two-lines .line-2 {
+  padding-left: 40px;
+}
+
+.cart-icon {
+  width: 41px;
+  height: auto;
+  position: absolute;
+}
+
+.lang-dp:hover .lang-popup-window {
+  display: flex;
+}
+
+.lang-popup-window {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  color: rgb(68, 68, 68);
+  background-color: white;
+  width: 210px;
+  height: 443px;
+  padding: 10px 14px 7px 14px;
+  border: 1px solid #bbb;;
+  border-radius: 3px;
+  top: 48px;
+  left: -5px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.small-hyper-link {
+  font-size: 11px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.small-hyper-link:hover {
+  text-decoration: underline;
+  color: #007185;
+}
+
+.small-hyper-link:visited {
+  color: #007185;
+}
+
+.change-currency, .change-currency:visited {
+  float: right;
+  font-size: 12px;
+  color: #007185;
+  text-decoration: none;
+}
+
+.change-currency:hover {
+  text-decoration: underline;
+}
+
+.shopping-on {
+  line-height: 1;
+}
+
+.shopping-on .lang-flag {
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.change-country {
+  text-align: center;
+  color: #007185;
+}
+
+.change-country a, .change-country a:visited {
+  text-decoration: none;
+  color: #007185;
+}
+
+.change-country a:hover {
+  text-decoration: underline;
+}
+
+.accounts-lists {
+  position: relative;
+}
+
+.acc-lists-popup-window {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  color: rgb(68, 68, 68);
+  background-color: white;
+  width: 470px;
+  height: 362px;
+  padding: 10px 14px 7px 14px;
+  border: 1px solid #bbb;;
+  border-radius: 3px;
+  top: 48px;
+  left: -245px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.accounts-lists:hover .acc-lists-popup-window {
+  display: flex;
+}
+
+.acc-list-popup-upper {
+  flex: 0 0 62px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.sign-in-button {
+  padding: 0px;
+  background-color: red;
+  color: rgb(17, 17, 17);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28px;
+  height: 30px;
+  width: 197px;
+  border: 1px solid;
+  border-top-color: rgb(200, 148, 17);
+  border-right-color: rgb(176, 130, 15);
+  border-bottom-color: rgb(153, 113, 13);
+  border-left-color: rgb(176, 130, 15);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #fcf3dc;
+  background: #f3cf72;
+  background-image: -webkit-linear-gradient(top, rgb(248, 227, 173), rgb(238, 186, 55));
+}
+
+.acc-list-popup-lower {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 70%;
+  gap: 20px;
+  line-height: 1.75;
+}
+
+.acc-list-popup-lower div {
+  flex: 0 0 50%;
+  text-align: left;
+}
+
+.acc-list-popup-left {
+  border-right: 1px solid rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+}
+
+.acc-list-popup-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.acc-list-header {
+  color: rgb(15, 17, 17);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.acc-list-item, .acc-list-item:visited {
+  color: rgb(68, 68, 68);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.acc-list-item:hover {
+  text-decoration: underline;
+  color: #FF8F00;
+}
+
+
+.h-seperator {
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  margin: 5px 0px;
+  height: 1px;
+}
+
+.subnav {
+  display: flex;
+
+  align-items: center;
+  height: 39px;
+  padding-left: 14px;
+  background-color: #232f3e;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.subnav a {
+  padding: 5px 7px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.subnav a .fa-bars {
+  font-size: 18px;
+  padding: 4px;
+}
+
+.subnav a:hover {
+  border: 1px solid white;
+}
+
+.sub-subnav {
+  padding-left: 15px;
+  height: 31px;
+  background-color: rgb(250, 250, 250);
+  overflow: hidden;
+  border-bottom: solid 1px rgb(220, 220, 220);
+}
+
+.sub-subnav a {
+  text-decoration: none;
+  line-height: 33px;
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  padding: 0px 11px;
+}
+
+.sub-subnav a:hover {
+  padding-bottom: 7px;
+  color: #FF8F00;
+  border-bottom: 2px solid #FF8F00;
+}
+
+.ad {
+  background-color: rgb(238, 238, 238);
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.current-nav {
+  padding: 0px 16px;
+}
+
+.current-nav a {
+  font-size: 11px;
+  color: rgb(50, 50, 50);
+  margin: 0px 2px;
+  text-decoration: none;
+}
+
+.current-nav a:hover {
+  text-decoration: underline;
+}
+
+.arrow-h-seperator {
+  font-size: 12px;
+}
+
+.search-bar {
+  display: inline;
+}
+
+.nav #amazon-logo {
+  padding-top: 5px;
+  height: 27px;
+  width: auto;
+}

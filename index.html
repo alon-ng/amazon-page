@@ -3,10 +3,222 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Tomato</title>
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+    <div class="nav">
+      <a href="https://amazon.com"><img id="amazon-logo" src="./img/amazon-logo.png" alt=""></a>
+      <div class="deliver-to">
+        <img class="loc-icon" src="./img/loc-icon.png" alt="">
+        <div class="two-lines">
+          <div class="line-1">Deliver to</div>
+          <div class="line-2">Israel</div>
+        </div>
+      </div>
+      <form class="search-bar-section" action="index.html">
+        <select class="search-dp" name="s-dp">
+          <option value="search-alias=aps">All Departments</option>
+          <option value="search-alias=arts-crafts-intl-ship">Arts & Crafts</option>
+          <option value="search-alias=automotive-intl-ship">Automotive</option>
+          <option value="search-alias=baby-products-intl-ship">Baby</option>
+          <option value="search-alias=beauty-intl-ship">Beauty & Personal Care</option>
+          <option selected="selected" current="parent" value="search-alias=stripbooks-intl-ship">Books</option>
+          <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
+          <option value="search-alias=computers-intl-ship">Computers</option>
+          <option value="search-alias=deals-intl-ship">Deals</option>
+          <option value="search-alias=digital-music">Digital Music</option>
+          <option value="search-alias=electronics-intl-ship">Electronics</option>
+          <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
+          <option value="search-alias=hpc-intl-ship">Health & Household</option>
+          <option value="search-alias=kitchen-intl-ship">Home & Kitchen</option>
+          <option value="search-alias=industrial-intl-ship">Industrial & Scientific</option>
+          <option value="search-alias=digital-text">Kindle Store</option>
+          <option value="search-alias=luggage-intl-ship">Luggage</option>
+          <option value="search-alias=fashion-mens-intl-ship">Men's Fashion</option>
+          <option value="search-alias=movies-tv-intl-ship">Movies & TV</option>
+          <option value="search-alias=music-intl-ship">Music, CDs & Vinyl</option>
+          <option value="search-alias=pets-intl-ship">Pet Supplies</option>
+          <option value="search-alias=instant-video">Prime Video</option>
+          <option value="search-alias=software-intl-ship">Software</option>
+          <option value="search-alias=sporting-intl-ship">Sports & Outdoors</option>
+          <option value="search-alias=tools-intl-ship">Tools & Home Improvement</option>
+          <option value="search-alias=toys-and-games-intl-ship">Toys & Games</option>
+          <option value="search-alias=videogames-intl-ship">Video Games</option>
+          <option value="search-alias=fashion-womens-intl-ship">Women's Fashion</option>
+        </select>
+        <input class="search-bar" type="text" height="40">
+        <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+      </form>
 
+      <div class="lang-dp">
+        <img class="lang-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/1920px-Flag_of_the_United_States_%28Pantone%29.svg.png" alt="">
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+
+        <div class="lang-popup-window">
+          <div class="change-lang-label">
+            Change language
+            <a href="https://www.amazon.com/gp/help/customer/display.html/ref=icp_flyout?ie=UTF8&nodeId=202085910" class="small-hyper-link">Learn more</a>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">English - EN</label>
+          </div>
+
+          <div class="h-seperator"></div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">español - ES</label>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">العربية - AR</label>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">Deutsch - DE</label>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">עברית - HE</label>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">한국어 - KO</label>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">português - PT</label>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">中文 (简体) - ZH</label>
+          </div>
+          <div class="">
+            <input type="radio" id="lang-en" name="lang" value="en">
+            <label for="lang-en">中文 (繁體) - ZH</label>
+          </div>
+          <div class="h-seperator"></div>
+          <div class="change-currency">
+            Change currency
+            <a href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&nodeId=GDX4RY8D2M85FHLD" class="small-hyper-link">Learn more</a>
+          </div>
+          <div class="currency">
+            $ - USD - US Dollar
+            <a href="https://www.amazon.com/customer-preferences/edit?ref=icp_cop_flyout_change?preferencesReturnUrl=%2FHippity-Hoppity-Little-Finger-Puppet%2Fdp%2F1680524771%2Fref%3Dlp_23760443011_1_2%3Flanguage%3Den_US" class="change-currency">Change</a>
+          </div>
+          <div class="h-seperator"></div>
+          <div class="shopping-on">
+            <img class="lang-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/1920px-Flag_of_the_United_States_%28Pantone%29.svg.png" alt="">
+            You are shopping on Amazon.com
+          </div>
+          <br>
+          <div class="change-country">
+            <a href="https://www.amazon.com/customer-preferences/country?ref_=icp_lop_mop_chg_ais&preferencesReturnUrl=/">Change country/region.</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accounts-lists">
+        <div class="two-lines">
+          <div class="line-1">Hello, Sign in</div>
+          <div class="line-2">
+            Account & Lists
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="acc-lists-popup-window">
+          <div class="acc-list-popup-upper">
+            <button type="button" class="sign-in-button">Sign in</button>
+            <div class="new-customer">
+              New customer?
+              <a href="#" class="small-hyper-link">Start here.</a>
+            </div>
+          </div>
+          <div class="acc-list-popup-lower">
+            <div class="acc-list-popup-left">
+              <span class="acc-list-header">
+                Your Lists
+              </span>
+              <a href="https://www.amazon.com/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect" class="acc-list-item">Create a List</a>
+              <a href="https://www.amazon.com/registries?ref_=nav_ListFlyout_find" class="acc-list-item">Find a List or Registry</a>
+              <a href="https://www.amazon.com/hz/charitylist/homepage?ref_=nav_ListFlyout_smi_se_ya_lll_ll" class="acc-list-item">AmazonSmile Charity Lists</a>
+            </div>
+            <div class="acc-list-popup-right">
+              <span class="acc-list-header">
+                Your Account
+              </span>
+              <a href="https://www.amazon.com/gp/css/homepage.html?ref_=nav_AccountFlyout_ya" class="acc-list-item">Account</a>
+              <a href="https://www.amazon.com/gp/css/order-history?ref_=nav_AccountFlyout_orders" class="acc-list-item">Orders</a>
+              <a href="https://www.amazon.com/gp/yourstore?ref_=nav_AccountFlyout_recs" class="acc-list-item">Recommendations</a>
+              <a href="https://www.amazon.com/gp/history?ref_=nav_AccountFlyout_browsinghistory" class="acc-list-item">Browings History</a>
+              <a href="https://www.amazon.com/gp/video/watchlist?ref_=nav_AccountFlyout_ywl" class="acc-list-item">Watchlist</a>
+              <a href="https://www.amazon.com/gp/video/library?ref_=nav_AccountFlyout_yvl" class="acc-list-item">Video Purchases & Rentals</a>
+              <a href="https://www.amazon.com/gp/kindle/ku/ku_central?ref_=nav_AccountFlyout_ku" class="acc-list-item">Kindle Unlimited</a>
+              <a href="https://www.amazon.com/hz/mycd/myx?pageType=content&ref_=nav_AccountFlyout_myk" class="acc-list-item">Content & Devices</a>
+              <a href="https://www.amazon.com/gp/subscribe-and-save/manager/viewsubscriptions?ref_=nav_AccountFlyout_sns" class="acc-list-item">Subscribe & Save Items</a>
+              <a href="https://www.amazon.com/hz5/yourmembershipsandsubscriptions?ref_=nav_AccountFlyout_digital_subscriptions" class="acc-list-item">Memberships & Subscripions</a>
+              <a href="https://music.amazon.com/?ref=nav_youraccount_cldplyr" class="acc-list-item">Music Library</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="returns-orders">
+        <div class="two-lines">
+          <div class="line-1">Returns</div>
+          <div class="line-2">& Orders</div>
+        </div>
+
+
+      </div>
+
+      <div class="cart">
+        <img class="cart-icon" src="./img/cart.png" alt="">
+        <div class="two-lines">
+          <div class="line-1">0</div>
+          <div class="line-2">Cart</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- language popup window -->
+
+
+    <div class="subnav">
+      <strong><a href="https://amazon.com"><i class="fa fa-bars" aria-hidden="true"></i>All</a></strong>
+      <a href="">Today's Deals</a>
+      <label for="language"></label>
+      <a href="https://www.amazon.com/gp/css/order-history?ref_=nav_orders_first">Customer Service</a>
+      <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart">Registry</a>
+      <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart">Gift Cards</a>
+      <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart">Sell</a>
+      <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart">Local Delivery in Israel</a>
+    </div>
+
+    <div class="sub-subnav">
+      <strong><a href="https://amazon.com">Books</a></strong>
+      <a href="https://amazon.com">Advanced Search</a>
+      <a href="https://amazon.com">New Releases</a>
+      <a href="https://amazon.com">Best Sellers & More</a>
+      <a href="https://amazon.com">Childen's Books</a>
+      <a href="https://amazon.com">Textbooks</a>
+      <a href="https://amazon.com">Textbook Rentals</a>
+      <a href="https://amazon.com">Best Books of the Month</a>
+    </div>
+
+    <div class="ad">
+      ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS ADS
+    </div>
+
+    <span class="current-nav">
+      <a href="https://www.amazon.com/books-used-books-textbooks/b/ref=dp_bc_aui_C_1?ie=UTF8&node=283155">Books</a>
+      <span class="arrow-h-seperator">›</span>
+      <a href="https://www.amazon.com/Childrens-Books/b/ref=dp_bc_aui_C_2?ie=UTF8&node=4">Childen's Books</a>
+      <span class="arrow-h-seperator">›</span>
+      <a href="https://www.amazon.com/Literature-Childrens-Books/b/ref=dp_bc_aui_C_3?ie=UTF8&node=2966">Literature & Fiction</a>
+    </span>
   </body>
 </html>
