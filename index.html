@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Amazon</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/general-style.css">
     <script src="./scripts/main-script.js"></script>
   </head>
   <body>
@@ -174,7 +175,7 @@
         <div class="lang-popup-window">
           <div class="change-lang-label">
             Change language
-            <a href="https://www.amazon.com/gp/help/customer/display.html/ref=icp_flyout?ie=UTF8&nodeId=202085910" class="small-hyper-link">Learn more</a>
+            <a href="https://www.amazon.com/gp/help/customer/display.html/ref=icp_flyout?ie=UTF8&nodeId=202085910" class="hyper-link font-size-11">Learn more</a>
           </div>
           <!-- Choose language -->
           <div class="">
@@ -217,14 +218,14 @@
           </div>
           <!-- Seperator -->
           <div class="h-seperator"></div>
-          <div class="change-currency">
+          <div class="font-size-13">
             Change currency
-            <a href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&nodeId=GDX4RY8D2M85FHLD" class="small-hyper-link">Learn more</a>
+            <a href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&nodeId=GDX4RY8D2M85FHLD" class="hyper-link font-size-11">Learn more</a>
           </div>
           <!-- Choose currency -->
           <div class="currency">
             $ - USD - US Dollar
-            <a href="https://www.amazon.com/customer-preferences/edit?ref=icp_cop_flyout_change?preferencesReturnUrl=%2FHippity-Hoppity-Little-Finger-Puppet%2Fdp%2F1680524771%2Fref%3Dlp_23760443011_1_2%3Flanguage%3Den_US" class="change-currency">Change</a>
+            <a href="https://www.amazon.com/customer-preferences/edit?ref=icp_cop_flyout_change?preferencesReturnUrl=%2FHippity-Hoppity-Little-Finger-Puppet%2Fdp%2F1680524771%2Fref%3Dlp_23760443011_1_2%3Flanguage%3Den_US" class="change-currency hyper-link font-size-12">Change</a>
           </div>
           <!-- Seperator -->
           <div class="h-seperator"></div>
@@ -235,9 +236,7 @@
           </div>
           <br>
           <!-- Change country/region -->
-          <div class="change-country">
-            <a href="https://www.amazon.com/customer-preferences/country?ref_=icp_lop_mop_chg_ais&preferencesReturnUrl=/">Change country/region.</a>
-          </div>
+          <a class="change-country hyper-link font-size-13" href="https://www.amazon.com/customer-preferences/country?ref_=icp_lop_mop_chg_ais&preferencesReturnUrl=/">Change country/region.</a>
         </div>
       </div>
 
@@ -259,7 +258,7 @@
             <button type="button" class="sign-in-button">Sign in</button>
             <div class="new-customer">
               New customer?
-              <a href="#" class="small-hyper-link">Start here.</a>
+              <a href="https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2FHippity-Hoppity-Little-Finger-Puppet%2Fdp%2F1680524771%2Fref%3Dlp_23760443011_1_2%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&" class="hyper-link font-size-11">Start here.</a>
             </div>
           </div>
           <!-- Popup window lower section -->
@@ -362,11 +361,39 @@
 
     <div class="main-body">
       <div class="item-details">
-        <div class="item-details-left">
-          <img src="https://images-na.ssl-images-amazon.com/images/I/51q7wVvRJjL._SY497_BO1,204,203,200_.jpg" alt="">
+        <div class="item-images-authors">
+          <img class="item-main-image" src="https://images-na.ssl-images-amazon.com/images/I/51q7wVvRJjL._SY497_BO1,204,203,200_.jpg" alt="">
+          <div class="item-small-images">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51q7wVvRJjL._AC_SY60_CR,0,0,60,60_.jpg" alt="">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41byozkY1vL._AC_SY60_CR,0,0,60,60_.jpg" alt="">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51d+bN9rWuL._AC_SY60_CR,0,0,60,60_.jpg" alt="">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51zQ0AiC6yL._AC_SY60_CR,0,0,60,60_.jpg" alt="">
+          </div>
+          <div class="hyper-link font-size-14 bottom-seperator">
+            See all 11 images
+          </div>
+          <div class="font-size-14 bold">
+            Follow the Authors
+          </div>
+          <div class="item-authors-icons">
+            <div class="author-icon">
+              <img class="author-logo" src="https://images-na.ssl-images-amazon.com/images/S/amzn-author-media-prod/t6vhhi8kgu0f10uu103fl8q5j0._SY600_.jpg" alt="">
+              <div class="hyper-link font-size-12 author-name">
+                Cottage Door Press
+              </div>
+              <button type="button" class="follow-button">+ Follow</button>
+            </div>
+            <div class="author-icon">
+              <img class="author-logo" src="https://images-na.ssl-images-amazon.com/images/G/01/author-pages/no-profile-image-placeholder-na._CB484118601_.png" alt="">
+              <div class="hyper-link font-size-12 author-name">
+                Parragon Books Ltd
+              </div>
+              <button type="button" class="follow-button">+ Follow</button>
+            </div>
+          </div>
         </div>
-        <div class="item-details-right">
-          <div class="item-details-heading">
+        <div class="item-description">
+          <div class="item-heading">
             <div class="item-name-date">
               <span class="item-name">
                 Hippity, Hoppity, Little Bunny - Finger Puppet Board Book for Easter Basket Gifts or Stuffer Ages 0-3 (Finger Puppet Book)
@@ -375,15 +402,56 @@
                 Board book – Illustrated, November 26, 2018
               </span>
             </div>
-            <div class="">
-
+            <div class="item-author">
+              <span class="font-size-14">
+                by
+              </span>
+              <a href="https://www.amazon.com/Cottage-Door-Press/e/B07RCCSGVW/ref=dp_byline_cont_book_1" class="hyper-link font-size-14">Cottage Door Press</a>
+              <span class="grey-text font-size-14">(Author, Editor)</span>
+            </div>
+            <div class="item-rating">
+              <img class="item-5-stars" src="./img/5-stars.png" alt="">
+              <i class="fa fa-caret-down" aria-hidden="true"></i>
+              <a  class="hyper-link font-size-14 item-rating-count" href="https://www.amazon.com/Hippity-Hoppity-Little-Finger-Puppet/dp/1680524771/ref=lp_23760443011_1_2#customerReviews">3,169 ratings</a>
+            </div>
+            <div class="font-size-14 hyper-link">
+              Part of: Finger Puppet (28 books)
+            </div>
+            <div class="item-award">
+              <img class="best-seller-icon" src="./img/best-seller.png" alt="">
+              <a class="hyper-link font-size-14" href="https://www.amazon.com/gp/bestsellers/books/8944280011/ref=zg_b_bs_8944280011_1">in Children's Christian Holiday Fiction</a>
             </div>
           </div>
-          <div class="item-details-price-description">
-
-          </div>
-          <div class="item-detals-stamps">
-
+          <div class="item-body">
+            <a class="item-see-all-formats font-size-11 hyper-link">
+              See all formats and editions
+            </a>
+            <div class="item-board-book">
+              <div class="font-size-13 bold">
+                Board book
+              </div>
+              <div class="buy-new-price font-size-14 bold">
+                $7.86
+              </div>
+            </div>
+            <div class="item-buy-count">
+              <a class="hyper-link font-size-12" href="https://www.amazon.com/gp/offer-listing/1680524771/ref=tmm_other_meta_binding_used_olp_0?ie=UTF8&condition=used">
+                13 Used
+                <span class="grey-text">from</span>
+                $2.79
+              </a>
+              <br>
+              <a class="hyper-link font-size-12" href="https://www.amazon.com/gp/offer-listing/1680524771/ref=tmm_other_meta_binding_new_olp_0?ie=UTF8&condition=new">
+                11 New
+                <span class="grey-text">from</span>
+                $3.99
+              </a>
+            </div>
+            <div class="item-savings-section font-size-14">
+              <span class="item-savings-icon">Savings</span>
+              Get 3 for the price of 2.
+              <a class="hyper-link font-size-14" href="https://www.amazon.com/promotion/psp/A28DHZ2V9MZA9W?ref=psp_external&redirectAsin=1680524771&redirectMerchantId=ATVPDKIKX0DER&ref=cxcw_psp_A28DHZ2V9MZA9W">Shop items</a>
+            </div>
           </div>
         </div>
       </div>
@@ -419,6 +487,289 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="page-footer">
+      <a class="back-to-top font-size-13" href="#nav-bar">
+        Back to top
+      </a>
+      <div class="footer-nav">
+        <div class="footer-nav-column">
+          <div class="font-size-16 bold">
+            Get to Know Us
+          </div>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+          <a href="#">About Amazon</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Amazon Devices</a>
+          <a href="#">Amazon Science</a>
+        </div>
+        <div class="footer-nav-column"  style="width: 164px;">
+          <div class="font-size-16 bold">
+            Make Money with Us
+          </div>
+          <a href="#">Sell products on Amazon</a>
+          <a href="#">Sell on Amazon Business</a>
+          <a href="#">Sell apps on Amazon</a>
+          <a href="#">Become an Affiliate</a>
+          <a href="#">Advertise Your Products</a>
+          <a href="#">Self-Publish with Us</a>
+          <a href="#">Host an Amazon Hub</a>
+          <a href="#">› See More Make Money with Us</a>
+        </div>
+        <div class="footer-nav-column">
+          <div class="font-size-16 bold">
+            Amazon Payment Products
+          </div>
+          <a href="#">Amazon Business Card</a>
+          <a href="#">Shop with Points</a>
+          <a href="#">Reload our Balance</a>
+          <a href="#">Amazon Currency Converter</a>
+        </div>
+        <div class="footer-nav-column" style="width: 137px;">
+          <div class="font-size-16 bold">
+            Let Us Help You
+          </div>
+          <a href="#">Amazon and COVID-19</a>
+          <a href="#">Your Account</a>
+          <a href="#">Your Orders</a>
+          <a href="#">Shipping Rates & Policies</a>
+          <a href="#">Returns & Replacements</a>
+          <a href="#">Manage Your Content and Devices</a>
+          <a href="#">Amazon Assistant</a>
+          <a href="#">Help</a>
+        </div>
+      </div>
+      <div class="footer-sub-nav">
+        <div class="footer-sub-nav-logo"></div>
+        <div class="footer-sub-nav-settings">
+          <div class="footer-sub-nav-lang">
+            <img class="footer-sub-nav-globe" src="./img/globe.png" alt="">
+            <span> English</span>
+            <i class="fa fa-sort" aria-hidden="true"></i>
+          </div>
+          <a class="footer-sub-nav-currency" href="#">$  USD - U.S. Dollar</a>
+          <a class="footer-sub-nav-country" href="#"><img class="lang-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/1920px-Flag_of_the_United_States_%28Pantone%29.svg.png" alt=""> United States</a>
+        </div>
+      </div>
+      <div class="footer-nav-more">
+        <div class="footer-nav-more-row">
+          <a href="" class="footer-nav-item">
+            Amazon Music
+            <div class="footer-nav-item-body">
+              Stream millions of songs
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Amazon Advertising
+            <div class="footer-nav-item-body">
+              Find, attract, and engage customers
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Amazon Drive
+            <div class="footer-nav-item-body">
+              Cloud storage from Amazon
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            6pm
+            <div class="footer-nav-item-body">
+              Score deals on fashion brands
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            AbeBooks
+            <div class="footer-nav-item-body">
+              Books, art & collectibles
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            	ACX
+            <div class="footer-nav-item-body">
+              Audiobook Publishing Made Easy
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Alexa
+            <div class="footer-nav-item-body">
+              Actionable Analytics for the Web
+            </div>
+          </a>
+        </div>
+        <div class="footer-nav-more-row">
+          <a href="" class="footer-nav-item">
+            Sell on Amazon
+            <div class="footer-nav-item-body">
+              Start a Selling Account
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Amazon Business
+            <div class="footer-nav-item-body">
+              Everything For Your Business
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            AmazonGlobal
+            <div class="footer-nav-item-body">
+              Ship Orders Internationally
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Home Services
+            <div class="footer-nav-item-body">
+              Experienced Pros Happiness Guarantee
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Amazon Ignite
+            <div class="footer-nav-item-body">
+              Sell your original Digital Educational Resources
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Amazon Web Services
+            <div class="footer-nav-item-body">
+              Scalable Cloud Computing Services
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Audible
+            <div class="footer-nav-item-body">
+              Listen to Books & Original Audio Performances
+            </div>
+          </a>
+        </div>
+        <div class="footer-nav-more-row">
+          <a href="" class="footer-nav-item">
+            Book Depository
+            <div class="footer-nav-item-body">
+              Books With Free Delivery Worldwide
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Box Office Mojo
+            <div class="footer-nav-item-body">
+              Find Movie Box Office Data
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            ComiXology
+            <div class="footer-nav-item-body">
+              Thousands of Digital Comics
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            DPReview
+            <div class="footer-nav-item-body">
+              DigitalPhotography
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Fabric
+            <div class="footer-nav-item-body">
+              Sewing, Quilting & Knitting
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Goodreads
+            <div class="footer-nav-item-body">
+              Book reviews & recommendations
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            IMDb
+            <div class="footer-nav-item-body">
+              Movies, TV & Celebrities
+            </div>
+          </a>
+        </div>
+        <div class="footer-nav-more-row">
+          <a href="" class="footer-nav-item">
+            IMDbPro
+            <div class="footer-nav-item-body">
+              Get Info Entertainment Professionals Need
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Kindle Direct Publishing
+            <div class="footer-nav-item-body">
+              Indie Digital & Print Publishing Made Easy
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            	Prime Video Direct
+            <div class="footer-nav-item-body">
+              Video Distribution Made Easy
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Shopbop
+            <div class="footer-nav-item-body">
+              Designer Fashion Brands
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Woot!
+            <div class="footer-nav-item-body">
+              Deals and Shenanigans
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Zappos
+            <div class="footer-nav-item-body">
+              Shoes & Clothing
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Ring
+            <div class="footer-nav-item-body">
+              Smart Home Security Systems
+            </div>
+          </a>
+        </div>
+        <div class="footer-nav-more-row">
+          <a href="" class="footer-nav-item">
+            eero WiFi
+            <div class="footer-nav-item-body">
+              Stream 4K Video in Every Room
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Blink
+            <div class="footer-nav-item-body">
+              Smart Security for Every Home
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Neighbors App
+            <div class="footer-nav-item-body">
+              Real-Time Crime & Safety Alerts
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            Amazon Subscription Boxes
+            <div class="footer-nav-item-body">
+              Top subscription boxes – right to your door
+            </div>
+          </a>
+          <a href="" class="footer-nav-item">
+            PillPack
+            <div class="footer-nav-item-body">
+              Pharmacy Simplified
+            </div>
+          </a>
+        </div>
+        <div class="footer-nav-line">
+          <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou">Conditions of Use</a>
+          <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy">Privacy Notice</a>
+          <a href="https://www.amazon.com/interestbasedads/ref=footer_iba">Interest-Based Ads</a>
+          <span>&copy 1996-2022, Amazon.com, Inc. or its affiliates</span>
+        </div>
+      </div>
+
+
     </div>
   </body>
 </html>

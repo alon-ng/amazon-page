@@ -1,0 +1,53 @@
+.grey-text {
+  color: rgb(86, 89, 89);
+}
+
+.float-right {
+  text-align: right;
+  float: right;
+}
+
+.hyper-link {
+  font-size: 11px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.hyper-link:hover {
+  text-decoration: underline;
+  color: rgb(196, 85, 0);
+}
+
+.hyper-link:visited {
+  color: #007185;
+}
+
+.font-size-11 {
+  font-size: 11px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-13 {
+  font-size: 13px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bottom-seperator {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
