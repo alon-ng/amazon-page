@@ -1,3 +1,7 @@
+.text-align-right {
+  text-align: right;
+}
+
 .grey-text {
   color: rgb(86, 89, 89);
 }
@@ -70,4 +74,95 @@
   top: 1px;
   height: 11px;
   background-position: 14px 0;
+}
+
+.smiley-icon {
+  background-position: -314px -2px;
+}
+
+.book-icon {
+  background-position: -184px -2px;
+}
+
+.globe-icon {
+  background-position: -158px -2px;
+}
+
+.grade-level-icon {
+  background-position: -106px -2px;
+}
+
+.dimensions-icon {
+  background-position: -2px -2px;
+}
+
+.building-icon {
+  background-position: -288px -2px;
+}
+
+.cala-icon {
+  background-position: -262px -2px;
+}
+
+.barcode-icon {
+  background-position: -132px -2px;
+}
+
+.carousel-arrow-right {
+  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-position: -105px -7px;
+  width: 11px;
+  height: 15px;
+}
+
+.location-icon {
+  min-width: 16px;
+  height: 14px;
+  float: left;
+  background-image: url(https://m.media-amazon.com/images/S/sash/nJCzu3ZNAgUz-2w.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+.email-icon {
+  display: inline-block;
+  background-image: url(https://m.media-amazon.com/images/S/sash/M9SSJsDj8YXHO4p.png);
+  background-position: -256px -220px;
+  background-size: 512px 256px;
+  position: relative;
+  width: 19px;
+  height: 17px;
+}
+
+.facebook-icon {
+  display: inline-block;
+  background-image: url(https://m.media-amazon.com/images/S/sash/M9SSJsDj8YXHO4p.png);
+  background-size: 512px 256px;
+  position: relative;
+  width: 17px;
+    height: 17px;
+    background-position: -237px -151px;
+}
+
+.twitter-icon {
+  display: inline-block;
+  background-image: url(https://m.media-amazon.com/images/S/sash/M9SSJsDj8YXHO4p.png);
+  background-size: 512px 256px;
+  position: relative;
+  width: 18px;
+  height: 17px;
+  background-position: -193px -105px;
+}
+
+.pinterest-icon {
+  display: inline-block;
+  background-image: url(https://m.media-amazon.com/images/S/sash/M9SSJsDj8YXHO4p.png);
+  background-size: 512px 256px;
+  position: relative;
+  width: 17px;
+  height: 17px;
+  background-position: -138px -14px;
 }

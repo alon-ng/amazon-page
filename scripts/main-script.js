@@ -15,3 +15,7 @@ function openSideNav() {
   document.getElementById("side-nav").style.left = "0px";
   document.getElementById("side-nav-overlay").style.display = "block";
 }
+
+function moveCarouselRight() {
+  
+}

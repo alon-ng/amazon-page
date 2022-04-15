@@ -366,6 +366,7 @@ body {
   left: -365px;
   width: 365px;
   z-index: 3;
+  transition: 2s;
 }
 
 .side-nav-x {
@@ -512,6 +513,7 @@ body {
 
 .item-images-authors {
   width: 260px;
+  height: 300px;
   margin-right: 40px;
   display: flex;
   flex-direction: column;
@@ -605,6 +607,8 @@ body {
 .item-body {
   display: flex;
   flex-direction: column;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 .item-see-all-formats {
@@ -648,6 +652,78 @@ body {
   margin-left: 18px;
 }
 
+.body-bottom {
+  max-width: 100%;
+}
+
+.body-bottom-cotainer {
+  width: 100%;
+}
+
+.body-bottom-middle {
+  max-width: 50%;
+  height: 104px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.body-bottom-right {
+  width: 5%;
+}
+
+.carousel-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.carousel-item {
+  display: inline-flex;
+  /* float: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center; */
+  width: 110px;
+  height: 104px;
+  /* white-space: normal; */
+}
+
+.carousel-item-top {
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+  margin-bottom: 8px;
+}
+
+.carousel-item-middle {
+  margin-bottom: 8px;
+  height: 24px;
+  width: 24px;
+  background-image: url(https://m.media-amazon.com/images/S/sash/4KY1PiWMSEktM92.png);
+  vertical-align: middle;
+}
+
+.carousel-arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  border: 1px solid rgb(213, 217, 217);
+}
+
+.carousel-arrow-container:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-arrow-container: {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .item-name {
   font-size: 28px;
   color: rgb(15, 17, 17);
@@ -682,11 +758,130 @@ body {
 
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .buy-new-price {
   color: rgb(177, 39, 4);
   font-size: 18px;
+}
+
+.quantity-dropdown {
+  border: 1px solid rgb(213, 217, 217);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(15 17 17 / 15%);
+}
+
+.add-to-cart-button {
+  height: 30px;
+  background-color: rgb(255, 216, 20);
+  border-radius: 20px;
+  border: 1px solid rgb(255, 216, 20);
+}
+
+.buy-now-button {
+  height: 30px;
+  background-color: rgb(255, 164, 28);
+  border-radius: 20px;
+  border: 1px solid rgb(255, 164, 28);
+}
+
+.ship-sold {
+  display: grid;
+  grid-template-columns: min-content auto;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.gift-receipt input {
+  height: 13px;
+  width: 13px;
+  vertical-align: top;
+  position: relative;
+  bottom: -3px;
+}
+
+.gift-receipt {
+  color: #0F1111;
+  padding-left: 15px;
+  text-indent: -15px;
+  margin-left: 3px;
+}
+
+.gift-receipt-text {
+  position: relative;
+  padding-left: 5px;
+  text-indent: 0;
+  display: inline-block;
+}
+
+.add-to-list-border {
+  padding-top: 10px;
+  border-top: 1px solid rgb(231, 231, 231);
+}
+
+.all-to-list-container {
+  background-color: rgb(231, 233, 236);
+  width: 230px;
+  height: 30px;
+  border: 1px solid rgb(231, 233, 236);
+  border-radius: 3px;
+}
+
+.add-to-list {
+  text-align: left;
+  width: 230px;
+  height: 29px;
+  padding: 0px 10px;
+}
+
+.social-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 14px 0px 8px 0px;
+  gap: 5px;
+}
+
+.amazon-book-club {
+  text-align: center;
+}
+
+.amazon-book-club-img {
+  width: 169px;
+  height: 32px;
+}
+
+.book-club-button-container {
+  text-align: center;
+  height: 29px;
+  border: 1px solid #D5D9D9;
+  border-radius: 8px;
+  padding: 0px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  background-color: #FFF;
+}
+
+.book-club-button {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.book-club-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.not-in-a-club {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .page-footer {
