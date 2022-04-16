@@ -115,6 +115,13 @@
   height: 15px;
 }
 
+.carousel-arrow-left {
+  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-position: -123px -7px;
+  width: 11px;
+  height: 15px;
+}
+
 .location-icon {
   min-width: 16px;
   height: 14px;
@@ -143,8 +150,8 @@
   background-size: 512px 256px;
   position: relative;
   width: 17px;
-    height: 17px;
-    background-position: -237px -151px;
+  height: 17px;
+  background-position: -237px -151px;
 }
 
 .twitter-icon {

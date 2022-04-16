@@ -653,42 +653,52 @@ body {
 }
 
 .body-bottom {
-  max-width: 100%;
+  margin-top: 18px;
 }
 
 .body-bottom-cotainer {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.body-bottom-left {
+  width: 24px;
+}
+
+.body-bottom-middle-container {
+  overflow: hidden;
 }
 
 .body-bottom-middle {
-  max-width: 50%;
+  position: relative;
   height: 104px;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .body-bottom-right {
-  width: 5%;
+  width: 24px;
 }
 
 .carousel-list {
+  position: absolute;
   width: 100%;
   margin: 0;
   padding: 0;
   white-space: nowrap;
-  overflow-x: auto;
 }
 
 .carousel-item {
   display: inline-flex;
-  /* float: left;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  text-align: center; */
+  vertical-align: middle;
+  justify-content: center;
+  text-align: center;
   width: 110px;
   height: 104px;
-  /* white-space: normal; */
+  white-space: normal;
 }
 
 .carousel-item-top {
@@ -717,10 +727,12 @@ body {
 }
 
 .carousel-arrow-container:hover {
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 .carousel-arrow-container: {
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -728,6 +740,7 @@ body {
   font-size: 28px;
   color: rgb(15, 17, 17);
 }
+
 
 .item-date {
   font-size: 24px;
